@@ -4,9 +4,10 @@
 This is a built verison of Freetype2, that only has what's necessary to include in a C++ program.
 
 ## Usage
-1. Add `freetype-2.13.2/include/` to your projects additional includes. You MUST do this directory - other paths use `<>` includes relative to it, so you can't get around this.
-2. Add `#include <ft2build.h>` and right after `#include FT_FREETYPE_H` to your includes somewhere in your project.
-3. You're all set.
+1. Download and extract the archive.
+2. Add `freetype-2.13.2/include/` to your projects additional includes. You MUST do this directory - other paths use `<>` includes relative to it, so you can't get around this.
+3. Add `#include <ft2build.h>` and right after `#include FT_FREETYPE_H` to your includes somewhere in your project.
+4. You're all set.
 
 ## How It Was Built
 This is a note for how it's built using Visual Studio on Windows, since it wasn't 100% straight-forward, should you ever want to build a new version.
@@ -20,5 +21,6 @@ This is a note for how it's built using Visual Studio on Windows, since it wasn'
 8. Make sure you also add the includes to your new repo.
 9. All set. That's how this was made.
 
-## Copyright
-The code is all freetype, so see their README, README.git and LICENSE file. But the instructions are Copyright Joseph M. Juma 2024, all rights reserved. Also - completely free to use, just don't misrepresent our relationship please.
+## License
+1. For the code, see the LICENSE and README files inside the *.zip archive. These are Freetype 2's licenses, and all code belongs to them.
+2. For the text written here explaining the repository, MIT license.
